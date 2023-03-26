@@ -1,0 +1,39 @@
+.article{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    border: .05px solid black;
+    border-left: 0;
+    border-right: 0;
+    margin: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.footer-btn{
+    border: 0;
+    background-color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: black;
+}
+.footer-btn:hover{
+    color: aqua;
+}
+h1 {
+    text-transform: uppercase;
+    margin-top: -10px;
+    text-align: left;
+}
+p{
+    text-align: center;
+    margin-top: 0;
+}
+p:nth-child(1){
+    text-align: left;
+
+}
+p:nth-child(4){
+    text-align: left;
+    margin-bottom: 0;
+}

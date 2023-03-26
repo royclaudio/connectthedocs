@@ -1,0 +1,6 @@
+.Home-container {
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin: 20px;
+}
